@@ -8,6 +8,7 @@ function Navbar() {
     const navHome = () => {navigate('/')}
     const navBlog = () => {navigate('/Blog')}
     const navAbout = () => {navigate('/About')}
+    const navRetirement = () => {navigate('/Retirement')}
 
 
   return (
@@ -19,6 +20,7 @@ function Navbar() {
         <a onClick={navHome} className="active">Home</a>
         <a onClick={navBlog}>Blog</a>
         <a onClick={navAbout}>About</a>
+        <a onClick={navRetirement}>Retirement</a>
       </div>
     </div>
   );

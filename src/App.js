@@ -13,6 +13,7 @@ import {
   Route
 } from "react-router-dom";
 import Navbar from './NavBar';
+import Retirement from './pages/Retirement';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/" element={<Main />}/>
         <Route path="/Blog" element={<Blog />}/>
         <Route path="/About" element={<About />}/>
+        <Route path="/Retirement" element={<Retirement />}/>
       </Routes>
     </BrowserRouter>
   );
